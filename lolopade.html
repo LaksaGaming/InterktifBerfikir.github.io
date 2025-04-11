@@ -11,3 +11,48 @@ Mari tuang kan semua ide kalian disini dan kita kelola bersama
   <p>Selamat datang di blog saya.</p>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog Pemrograman</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Blog Pemrograman</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="kategori.html">Kategori</a></li>
+        <li><a href="tentang.html">Tentang</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <article>
+      <h2>Cara Membuat API dengan Node.js</h2>
+      <p class="tanggal">Diposting: 11 April 2025</p>
+      <pre><code class="language-javascript">
+// Contoh kode API sederhana
+const express = require('express');
+const app = express();
+
+app.get('/', (req, res) => {
+  res.send('Halo Dunia!');
+});
+
+app.listen(3000, () => {
+  console.log('Server jalan di port 3000');
+});
+      </code></pre>
+    </article>
+  </main>
+
+  <footer>
+    <p>© 2025 Blog Pemrograman. Dibuat dengan HTML & kopi ☕</p>
+  </footer>
+</body>
+</html>
